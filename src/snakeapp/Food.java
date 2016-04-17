@@ -11,6 +11,8 @@ import javax.swing.ImageIcon;
 import javax.swing.JPanel;
 import javax.swing.Timer;
 
+package snakeapp;
+
 public class Food{
     private final int DOT_SIZE = 10;
     

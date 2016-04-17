@@ -1,6 +1,8 @@
 import java.awt.EventQueue;
 import javax.swing.JFrame;
 
+package snakeapp;
+
 public class Game extends JFrame{
     
     public Game(){
@@ -14,7 +16,7 @@ public class Game extends JFrame{
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
     
-    public static void main(String[] args) {
+    public static void runGame() {
         
         EventQueue.invokeLater(new Runnable() {
             @Override

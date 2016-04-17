@@ -14,6 +14,8 @@ import javax.swing.ImageIcon;
 import javax.swing.JPanel;
 import javax.swing.Timer;
 
+package snakeapp;
+
 public class Snake{
     private final int MAX_LENGTH = 900;
     private final int DOT_SIZE = 10;

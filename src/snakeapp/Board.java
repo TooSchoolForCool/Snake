@@ -14,6 +14,8 @@ import javax.swing.ImageIcon;
 import javax.swing.JPanel;
 import javax.swing.Timer;
 
+package snakeapp;
+
 public class Board extends JPanel implements ActionListener {
     private final int B_WIDTH = 300;
     private final int B_HEIGHT = 300;
@@ -42,13 +44,13 @@ public class Board extends JPanel implements ActionListener {
     }
     
     private void loadImages(){
-        ImageIcon iid = new ImageIcon("dot.png");
+        ImageIcon iid = new ImageIcon("../pic/dot.png");
         s.setBodyImage(iid.getImage());
 
-        ImageIcon iia = new ImageIcon("apple.png");
+        ImageIcon iia = new ImageIcon("../pic/apple.png");
         f.setFoodImage(iia.getImage());
         
-        ImageIcon iih = new ImageIcon("head.png");
+        ImageIcon iih = new ImageIcon("../pic/head.png");
         s.setHeadImage(iih.getImage());
     }
     
