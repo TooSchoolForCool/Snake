@@ -84,7 +84,7 @@ public class startPage extends javax.swing.JFrame {
     private void startGameButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_startGameButtonActionPerformed
         // TODO add your handling code here:
         super.dispose();
-        new gamePage().setVisible(true);
+        new Game().runGame();
     }//GEN-LAST:event_startGameButtonActionPerformed
 
 
